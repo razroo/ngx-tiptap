@@ -1,4 +1,6 @@
 {
+  "name": "@razroo/ngx-tiptap",
+  "version": "11.0.0",
   "scripts": {
     "ng": "ng",
     "demo": "ng serve",
