@@ -1,6 +1,11 @@
 {
   "name": "@razroo/ngx-tiptap",
-  "version": "11.0.0",
+  "version": "11.0.3",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Razroo",
+  "description": "Tiptap editor for Angular",
   "scripts": {
     "ng": "ng",
     "demo": "ng serve",
@@ -16,7 +21,6 @@
     "prepare": "is-ci || husky",
     "prepublishOnly": "is-ci || npm run build"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^18.0.3",
     "@angular/common": "^18.0.3",
@@ -65,9 +69,5 @@
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.3",
     "typescript": "~5.4.2"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "author": "Razroo"
+  }  
 }
